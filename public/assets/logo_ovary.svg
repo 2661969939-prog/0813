@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs>
+<linearGradient id="ring" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfcfd"/><stop offset="0.16" stop-color="#d4d9df"/>
+      <stop offset="0.36" stop-color="#868d96"/><stop offset="0.5" stop-color="#5b626b"/>
+      <stop offset="0.66" stop-color="#868d96"/><stop offset="0.86" stop-color="#c8cdd3"/>
+      <stop offset="1" stop-color="#eef1f4"/></linearGradient>
+<radialGradient id="ovary" cx="0.34" cy="0.28" r="0.95">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.18" stop-color="#eaedf1"/>
+      <stop offset="0.5" stop-color="#bcc2c9"/><stop offset="0.78" stop-color="#868d96"/>
+      <stop offset="1" stop-color="#565c64"/></radialGradient>
+<radialGradient id="foll" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#f4f6f8"/><stop offset="0.55" stop-color="#cfd4da"/>
+      <stop offset="0.8" stop-color="#8b929b"/><stop offset="1" stop-color="#454b53"/></radialGradient>
+<radialGradient id="tumor" cx="0.36" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#eef1f4"/><stop offset="0.4" stop-color="#a7aeb6"/>
+      <stop offset="0.75" stop-color="#6b727b"/><stop offset="1" stop-color="#3c424a"/></radialGradient>
+<radialGradient id="node" cx="0.35" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.5" stop-color="#c2c8cf"/>
+      <stop offset="1" stop-color="#5c626b"/></radialGradient>
+<filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#0c0f13" flood-opacity="0.32"/></filter>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<g stroke-linecap="round">
+<line x1="400.0" y1="100.0" x2="140.2" y2="550.0" stroke="#2f343b" stroke-width="8"/>
+<line x1="400.0" y1="100.0" x2="140.2" y2="550.0" stroke="#b8bec6" stroke-width="5"/>
+<line x1="400.0" y1="100.0" x2="140.2" y2="550.0" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.5"/>
+<line x1="140.2" y1="550.0" x2="659.8" y2="550.0" stroke="#2f343b" stroke-width="8"/>
+<line x1="140.2" y1="550.0" x2="659.8" y2="550.0" stroke="#b8bec6" stroke-width="5"/>
+<line x1="140.2" y1="550.0" x2="659.8" y2="550.0" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.5"/>
+<line x1="659.8" y1="550.0" x2="400.0" y2="100.0" stroke="#2f343b" stroke-width="8"/>
+<line x1="659.8" y1="550.0" x2="400.0" y2="100.0" stroke="#b8bec6" stroke-width="5"/>
+<line x1="659.8" y1="550.0" x2="400.0" y2="100.0" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.5"/>
+</g>
+<g filter="url(#sh)">
+<circle cx="400.0" cy="400.0" r="300" fill="none" stroke="#2f343b" stroke-width="20"/>
+<circle cx="400.0" cy="400.0" r="300" fill="none" stroke="url(#ring)" stroke-width="15"/>
+<circle cx="400.0" cy="400.0" r="293" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.4"/>
+</g>
+<circle cx="400.0" cy="102.0" r="22" fill="#2f343b"/>
+<circle cx="400.0" cy="100.0" r="20" fill="url(#node)"/>
+<circle cx="394.0" cy="94.0" r="6" fill="#fff" opacity="0.7"/>
+<circle cx="140.2" cy="552.0" r="22" fill="#2f343b"/>
+<circle cx="140.2" cy="550.0" r="20" fill="url(#node)"/>
+<circle cx="134.2" cy="544.0" r="6" fill="#fff" opacity="0.7"/>
+<circle cx="659.8" cy="552.0" r="22" fill="#2f343b"/>
+<circle cx="659.8" cy="550.0" r="20" fill="url(#node)"/>
+<circle cx="653.8" cy="544.0" r="6" fill="#fff" opacity="0.7"/>
+<g transform="rotate(-20 400.0 400.0)">
+<ellipse cx="400.0" cy="538.0" rx="131.6" ry="14" fill="#0c0f13" opacity="0.25" filter="url(#soft)"/>
+<ellipse cx="400.0" cy="400.0" rx="188" ry="132" fill="url(#ovary)"/>
+<ellipse cx="400.0" cy="400.0" rx="186" ry="130" fill="none" stroke="#3f454d" stroke-opacity="0.55" stroke-width="2.5"/>
+<ellipse cx="397.0" cy="397.0" rx="185" ry="129" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.5"/>
+<ellipse cx="342.0" cy="348.0" rx="60" ry="34" fill="#ffffff" opacity="0.4" filter="url(#soft)"/>
+<circle cx="472.0" cy="433.0" r="56" fill="#2f343b" opacity="0.5"/>
+<circle cx="472.0" cy="430.0" r="56" fill="url(#tumor)"/>
+<circle cx="453.0" cy="415.4" r="19.0" fill="#fff" opacity="0.12"/>
+<circle cx="488.8" cy="441.2" r="16.8" fill="#2f343b" opacity="0.2"/>
+<circle cx="472.0" cy="430.0" r="56" fill="none" stroke="#2f343b" stroke-opacity="0.5" stroke-width="2"/>
+</g>
+<g stroke="#2c3138" stroke-width="4.5" stroke-linecap="round" fill="none">
+<path d="M 437.9 389.6 L 437.9 363.6 L 463.9 363.6"/>
+<path d="M 517.9 389.6 L 517.9 363.6 L 491.9 363.6"/>
+<path d="M 437.9 417.6 L 437.9 443.6 L 463.9 443.6"/>
+<path d="M 517.9 417.6 L 517.9 443.6 L 491.9 443.6"/>
+</g>
+<g stroke="#ffffff" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" fill="none">
+<path d="M 438.9 390.6 L 438.9 364.6 L 464.9 364.6"/>
+<path d="M 518.9 390.6 L 518.9 364.6 L 492.9 364.6"/>
+<path d="M 438.9 418.6 L 438.9 444.6 L 464.9 444.6"/>
+<path d="M 518.9 418.6 L 518.9 444.6 L 492.9 444.6"/>
+</g>
+<circle cx="477.9" cy="403.6" r="4" fill="#2c3138"/>
+</svg>

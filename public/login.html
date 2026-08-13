@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>多中心数据收集平台登录</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="login-body">
+    <main class="login-page">
+      <section class="login-hero" aria-label="平台登录">
+        <div class="platform-seal logo-box" aria-hidden="true"><img src="./assets/logo_ovary.svg" alt="" /></div>
+        <h1>卵巢肿瘤影像<br />数据收集平台</h1>
+        <div class="login-card">
+          <div class="login-brand-panel">
+            <div class="login-logo logo-box" aria-hidden="true"><img src="./assets/logo_ovary.svg" alt="" /></div>
+            <strong>卵巢肿瘤影像数据收集平台</strong>
+            <span>Multicenter Ovarian Tumor Imaging Data Platform</span>
+          </div>
+          <form class="login-form" action="./index.html#login">
+            <h2>用户登录 / USER LOGIN</h2>
+            <label>
+              用户名
+              <input name="username" value="管理员" autocomplete="username" />
+            </label>
+            <label>
+              密码
+              <input name="password" value="12345678" type="password" autocomplete="current-password" />
+            </label>
+            <div class="login-warning">首次使用请先注册账号，再进入病例数据工作台</div>
+            <button class="primary login-submit" type="submit">登录</button>
+            <a class="form-link" href="./register.html">没有账号，先注册</a>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./auth-bridge.js"></script>
+  </body>
+</html>
